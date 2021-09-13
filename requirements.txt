@@ -1,4 +1,5 @@
-bumpy
-cv2
+numpy
+opencv-python
 keras
 gradio
+tensorflow
