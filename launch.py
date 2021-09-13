@@ -16,7 +16,7 @@ def Counter(img):
     
 inputs = gr.inputs.Image()
 outputs = gr.outputs.Textbox()
-sample_images = [["examples/pic6_1p1c0d.jpeg"],['examples/pic9_1p1c0d.jpeg'],['examples/pic63_2p0c1d.jpeg']
+sample_images = [['examples/pic6_1p1c0d.jpeg'],['examples/pic9_1p1c0d.jpeg'],['examples/pic63_2p0c1d.jpeg']
                  ,['examples/pic394_0p3c2d.jpeg'],['examples/pic390_0p1c1d.jpeg']]
 title = 'How many cats / dogs / people?'
 description = 'Upload a picture. The model will count how many cats, dogs and people in the picture'
