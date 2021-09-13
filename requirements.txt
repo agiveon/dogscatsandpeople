@@ -1,0 +1,4 @@
+bumpy
+cv2
+keras
+gradio
