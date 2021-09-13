@@ -6,8 +6,8 @@ from tensorflow import keras
 model = keras.models.load_model('CounterModel.h5')
 
 def Counter(img):
-  IMG_WIDTH = 224*2
-  IMG_HEIGHT = 224*2
+  IMG_WIDTH = 224*3
+  IMG_HEIGHT = 224*3
 
   img_scaled = img.astype(np.float32)/255.
   img_resized =  cv2.resize(img_scaled,(IMG_WIDTH,IMG_HEIGHT))
