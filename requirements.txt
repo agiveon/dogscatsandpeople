@@ -1,4 +1,4 @@
-bumpy
+numpy
 opencv-python
 keras
 gradio
